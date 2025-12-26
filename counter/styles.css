@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+body {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timmer__lable{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.timer__container {
+    display: flex;
+    column-gap: 15px;
+    flex-direction: row;
+    background-color: red;
+}
+
+.timmer__input--item{
+    border: none;
+    outline: none;
+    color: gray;
+    font-size: 50px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+
+.timmer__controler{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.timmer__controler--item{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.start{
+    background-color: aqua;
+}
+
+.reset{
+    background-color: red;
+}
+
+.timer__item{
+    display: flex;
+    flex-direction: row;
+    column-gap: 4px;
+    font-size: 36px;
+    font-weight: bolder;
+
+
+}
+
+.timer__item > input {
+    border: none;
+    background-color: transparent;
+    
+}
+
+.timer__item > input:focus {
+    border: none;
+    background-color: transparent;
+}

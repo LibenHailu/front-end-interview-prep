@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<div id="app">
+    <div class="timmer__container">
+        <h1 class="timmer__container--title">Countdown Timer</h1>
+        <div class="timmer__lable">
+            <h2 class="timmer__lable--title">
+                Hour
+            </h2>
+            <h2 class="timmer__lable--title">
+                Minute
+            </h2>
+            <h2 class="timmer__lable--title">
+                Second
+            </h2>
+        </div>
+
+        <div class="timmer__input">
+            <input class="timmer__input--item hour" type="number" maxlength="2"
+                oninput="this.value=this.value.slice(0,this.maxLength)" placeholder="00" />
+
+            <input class="timmer__input--item minute" type="number" maxlength="2"
+                oninput="this.value=this.value.slice(0,this.maxLength)" placeholder="00" />
+
+            <input class="timmer__input--item second" type="number" maxlength="2"
+                oninput="this.value=this.value.slice(0,this.maxLength)" placeholder="00" />
+        </div>
+
+        <div class="timmer__controler">
+            <button class="timmer__controler--item start">Start</button>
+            <button class="timmer__controler--item reset">Reset</button>
+        </div>
+    </div>
+
+</div>
+
+<body>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
