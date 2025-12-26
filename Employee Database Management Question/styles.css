@@ -1,0 +1,20 @@
+.employee{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0 8px;
+    column-gap: 12px;
+}
+.employee button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+}
+ul{
+    border: red;
+    background-color: aqua;
+    list-style: none;
+    width: fit-content;
+}
